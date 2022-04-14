@@ -608,6 +608,7 @@ background: var(--accent-color);
   background: rgba(0, 0, 0, 0.2);
 }
 .modal {
+  padding: 40px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -617,7 +618,7 @@ background: var(--accent-color);
   background: #FFFFFF;
   border-radius: 4px 4px 4px 4px;
 }
-.backdrop-modal-button {
+.modal-button-close {
 position: absolute;
 top: 8px;
 right: 8px;
@@ -637,4 +638,31 @@ cursor: pointer;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+/* ===========MODAL_INPUT=========== */
+.modal-title {
+font-family: var(--first-font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+.modal-form {
+
+}
+.modal-form-input {
+  display: block;
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.modal-chekbox {
+
+}
+.modal-form-button {
+
 }
