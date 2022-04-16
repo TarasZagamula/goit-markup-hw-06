@@ -625,6 +625,8 @@ background: var(--accent-color);
   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
+  display: block;
+  padding: 40px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -633,6 +635,10 @@ background: var(--accent-color);
   height: 581px;
   background: #FFFFFF;
   border-radius: 4px 4px 4px 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--content-color);
 }
 .backdrop-modal-button {
 position: absolute;
@@ -654,4 +660,53 @@ cursor: pointer;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+.modal-form {
+font-weight: 400;
+}
+.modal-title {
+margin-bottom: 12px;  
+font-family: var(--first-font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+.modal-label {
+display: block;
+margin-bottom: 10px;
+}
+.modal-label-comment: {
+display: block
+}
+.modal-imput {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.modal-comment {
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 16px;
+padding-right: 16px;  
+margin-bottom: 10px;
+width: 100%;
+height: 120px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+box-sizing: border-box;
+border-radius: 4px;
+resize: none;
+}
+.conditions-box {
+margin-bottom: 30px;
+}
+.conditions-radio {
+
+}
+.modal-button-submit {
+
 }
